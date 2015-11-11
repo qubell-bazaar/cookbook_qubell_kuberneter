@@ -1,1 +1,1 @@
-# cookbook_qubell_kuberneter
+# cookbook_qubell_kubernetes
