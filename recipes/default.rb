@@ -96,3 +96,4 @@ for s in svc
     action [:enable, :start]
     not_if 'sleep 1', :timeout => 10
   end
+end
