@@ -1,1 +1,1 @@
-default['qubell-kubernetes']['home'] = "/opt/kubernetes"
+default['qubell_kubernetes']['home'] = "/opt/kubernetes"
