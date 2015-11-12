@@ -1,4 +1,4 @@
-node['qubell-kubernetes']['nodes'].each_with_index do |n, i|  
+node['qubell_kubernetes']['nodes'].each_with_index do |n, i|  
   case n
     when node['ipaddress']
       bash "patch docker-bridge" do
