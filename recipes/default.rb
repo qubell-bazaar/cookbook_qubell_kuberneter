@@ -94,6 +94,5 @@ for s in svc
     subscribes :restart, "template[kube-#{s}-init]"
     subscribes :restart, "template[kube-#{s}-wrapper]"
     action [:enable, :start]
-    not_if 'sleep 1', :timeout => 10
   end
 end
